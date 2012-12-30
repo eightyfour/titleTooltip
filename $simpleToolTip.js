@@ -7,7 +7,8 @@
  *      });
  *  });
  *
- *  Has only a Canvas triangle on bottom left and bottom center (no canvas supported browser has a graphic).
+ *  Has only a Canvas triangle on bottom left and bottom center (no canvas supported needs a fallback 
+ *  as a graphic).
  * 
  */
 (function($){
