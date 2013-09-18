@@ -165,4 +165,13 @@
         }
         return this;
     };
+    /**
+     * Remove tooltip functionality from dom element
+     * TODO don't remove the dom events. Give events name and remove only the tooltip event'
+     **/
+    $.fn.removeSimpleTooltip = function() {
+        this.unbind("mouseenter");
+        this.unbind("mouseleave");
+        return this;
+    }
 })(jQuery);
